@@ -1,9 +1,9 @@
 mod greet;
 mod parser;
-mod cereals;
-mod threads;
+mod complex;
 
 fn main() {
     greet::greet();
     parser::parse();
+    complex::compute();
 }
